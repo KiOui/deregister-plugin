@@ -1,0 +1,15 @@
+div.selection-container div.menu-link p.hover-show {
+    color: white;
+}
+
+div.selection-container {
+    background-color: white;
+}
+
+div.selection-container div.deregister_add p {
+    color: #34af99;
+}
+
+div.selection-container div.deregister_remove p {
+    color: #34af99;
+}

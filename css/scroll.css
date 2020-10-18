@@ -1,0 +1,18 @@
+div.scroll-button {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	margin: 20px;
+	font-size: 24pt;
+}
+
+div.scroll-button i {
+	color: #34af99;
+	cursor: pointer;
+}
+
+@media screen and (min-width: 600px) {
+	div.scroll-button {
+		display: none;
+	}
+}

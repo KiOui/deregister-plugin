@@ -1,0 +1,83 @@
+div.category {
+    background-color: white;
+    flex: 1 1 0;
+    min-width: 300px;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+div.category div.deregister_add p {
+    color: #34af99;
+}
+
+div.category div.deregister_remove p {
+    color: #34af99;
+}
+
+div.category div.menu-link:hover::before {
+    color: white;
+}
+
+div.category-loading-icon {
+    position: absolute;
+    margin: auto;
+}
+
+div.category-wrapper {
+    position: relative;
+}
+
+div.category-loading-icon {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    background-color: rgba(255,255,255,0.8);
+}
+
+div.category-loading-icon img {
+    margin: auto;
+}
+
+div.category h2 {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+div.category a {
+    cursor: pointer;
+}
+
+a.navigation-link {
+    cursor: pointer;
+}
+
+a.category-link {
+    cursor: pointer;
+}
+
+div.flex-back-row {
+    display: flex;
+}
+
+div.flex-back-row-button {
+    flex-basis: auto;
+    flex-grow: 0;
+}
+
+div.flex-back-row-navigation {
+    flex-basis: auto;
+    flex-grow: 1;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+div.category-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
